@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "406757309596",
+    "project_id": "gading-murni-476e7",
+    "storage_bucket": "gading-murni-476e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406757309596:android:2d29c268a7395116dcc159",
+        "android_client_info": {
+          "package_name": "com.gadingservicecenter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtD859jl86NhtOw3491QueRlF2fx1ArzI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

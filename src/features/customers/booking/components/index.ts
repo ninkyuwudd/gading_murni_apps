@@ -1,0 +1,10 @@
+export {default as SegmentedControl} from './SegmentedControl';
+export {default as BookingItem} from './BookingItem';
+export {default as BookingStatus} from './BookingStatus';
+export {default as BookingInformation} from './BookingInformation';
+export {default as SegmentedDetail} from './SegmentedDetail';
+export {default as CustomerCare} from './CustomerCare';
+export {default as ConfirmationCancelModal} from './ConfirmationCancelModal';
+export {default as StartAndAfterService} from './StartAndAfterService';
+export {default as ServiceDetail} from './ServiceDetail';
+export {default as ServiceReview} from './ServiceReview';

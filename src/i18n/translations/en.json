@@ -1,0 +1,552 @@
+{
+    "onboardingSlideTitle1": "Manage Your Machine",
+    "onboardingSlideDescription1": "We prioritize your satisfaction and ensure the well-being of your device",
+    "onboardingSlideTitle2": "Quick Response",
+    "onboardingSlideDescription2": "Get help and support quickly whenever you need it",
+    "onboardingSlideTitle3": "Always Caring",
+    "onboardingSlideDescription3": "Gading Murni is always available 24/7. Don't worry, we are online in the middle of the night!",
+
+    "assignLabel": "Assign",
+    "selectLabel": "Select",
+    "editLabel": "Edit",
+    "deleteLabel": "Delete",
+    "acceptLabel": "Accept",
+    "changeScheduleLabel": "Change Schedule",
+    "skipLabel": "Skip",
+    "closeLabel": "Close",
+    "sendLabel": "Send",
+    "nextLabel": "Next",
+    "saveLabel": "Save",
+    "cancelLabel": "Cancel",
+    "changeLabel": "Change",
+    "secondTimeLabel": "seconds",
+    "orLabel": "or ",
+    "errorMessageForm": "Please fill out the form first",
+    "otpInfo1": "OTP code has been sent to the",
+    "pleaseCheck": ", please check your",
+    "otpInfo2": "and enter the code",
+    "resendOtp": "Resend otp in",
+    "resendOtpAction": "Resend otp",
+    "machinesListEmpty": "No machines are registered yet",
+    "registerMachine": "Register Machine",
+    "myMachine": "My Machine",
+    "addMyMachine": "Add My Machine",
+    "total": "Total",
+    "whatsApp": "WhatsApp",
+    "email": "Email",
+    "cancel": "Cancel",
+    "sendOtp": "Send OTP",
+    "sendOtpInformation": "Select how you want to receive the OTP code",
+    "registration": "Register",
+    "chooseVerificationMethod": "Choose Verification Method",
+    "verificationMethodDesc": "Choose your preferred verification option. We will send a 4-digit OTP to your registered email/WhatsApp address.",
+    "viaEmail": "Via Email",
+    "viaEmailDesc": "We will send a 4 digit OTP code to the Email number you entered",
+    "viaWhatsapp": "Via Whatsapp",
+    "viaWhatsappDesc": "We will send a 4 digit OTP code to the Whatsapp number you entered",
+
+    "loginFormValidation": {
+        "required": "{{field}} is required",
+        "email": "Invalid email"
+    },
+    "loginFieldFields": {
+        "email": "Email",
+        "emailPlaceHolder": "Input your email",
+        "password": "Password",
+        "passwordPlaceHolder": "Input your password"
+    },
+    "btnLoginLabel": "Login",
+    "btnForgetLabel": "Forget your password?",
+    "footerCreateAccountLabel": "Don't have an account? ",
+    "footerBtnCreateAccountLabel": "Create Account",
+
+    "headerForgetPasswordLabel": "Forget Password",
+    "descriptionForgetPasswordByEmail": "Enter your email address for the password reset process, and we will send a 4-digit OTP code to your Email.",
+    "descriptionForgetPasswordByWhatsapp": "Enter your Whatsapp number for the password reset process, and we will send a 4-digit OTP code to your Whatsapp.",
+    "forgetFormValidation": {
+        "required": "{{field}} is required",
+        "email": "Invalid email",
+        "phoneNumber": "Invalid phone number"
+    },
+    "forgetFieldFields": {
+        "email": "Email",
+        "emailPlaceHolder": "Input your email",
+        "phoneNumber": "Whatsapp Number",
+        "phoneNumberPlaceHolder": "Enter your whatsapp number"
+    },
+
+    "infoRegisterLabel": "Register your account and we are ready to serve your needs!",
+    "registerFormValidation": {
+        "required": "{{field}} is required",
+        "email": "Invalid email",
+        "phoneNumber": "Invalid phone number",
+        "min": "{{field}} must be at least {{min}} characters",
+        "confirmPassword": "Password confirmation does not match"
+      },
+      "registerFieldFields": {
+        "fullName": "Full Name",
+        "fullNamePlaceHolder": "Enter your full name",
+        "companyName": "Company Name",
+        "companyNamePlaceHolder": "Enter your company name (optional)",
+        "email": "Email",
+        "emailPlaceHolder": "Enter your email",
+        "phoneNumber": "Phone Number",
+        "phoneNumberPlaceHolder": "Enter your phone number",
+        "password": "Password",
+        "passwordPlaceHolder": "Enter your password",
+        "confirmPassword": "Confirm Password",
+        "confirmPasswordPlaceHolder": "Re-enter your password"
+      },
+      "btnRegisterLabel": "Register",
+      "footerBtnLoginLabel": "Login",
+      "footerLoginLabel": " with your account",
+
+    "headerConfirmationOtpLabel": "OTP Confirmation",
+    "enterOtpCode": "Enter OTP Code",
+
+    "AuthModule": {
+      "ResetPassword": {
+        "Header": "Reset Password",
+        "Form": {
+          "Validation": {
+            "Required": "{{field}} is required",
+            "ConfirmPassword": "Password confirmation does not match",
+            "Email": "Email does not match",
+            "PhoneNumber": "Whatsapp number does not match",
+            "Min": "{{field}} must be at least {{min}} characters"
+          },
+          "Fields": {
+            "Email": "Email",
+            "EmailPlaceHolder": "Enter your email",
+            "PostalCode": "Whatsapp Number",
+            "PhoneNumberPlaceHolder": "Enter your whatsapp number",
+            "Otp": "Otp Code",
+            "OtpPlaceHolder": "Enter otp code",
+            "Password": "New Password",
+            "PasswordPlaceHolder": "Enter New Password",
+            "ConfirmPassword": "Confirm Password",
+            "ConfirmPasswordPlaceHolder": "Confirm Password"
+          }
+        },
+        "SuccessfullyChanged": "Password changed successfully"
+      }
+    },
+
+    "headerDataCompletenessLabel": "Location",
+    "myLocationLabel": "Your Location",
+    "dataCompletenessValidation": {
+        "required": "{{field}} is required",
+        "postalCode": "Postal code is invalid"
+      },
+      "dataCompletenessFieldFields": {
+        "province": "Province",
+        "provincePlaceHolder": "Select Province",
+        "searchProvince": "Province search",
+        "regency": "City",
+        "regencyPlaceHolder": "Select City",
+        "searchRegency": "Regency search",
+        "district": "District",
+        "districtPlaceHolder": "Select District",
+        "searchDistrict": "District search",
+        "village": "Village",
+        "villagePlaceHolder": "Select Village",
+        "searchVillage": "Select Village",
+        "postalCode": "Postal Code",
+        "postalCodePlaceHolder": "Enter Postal Code",
+        "fullAddress": "Full Address",
+        "fullAddressPlaceHolder": "Enter Full Address",
+        "nearestBranch": "Choose Nearest Branch",
+        "branch": "Branch",
+        "nearestBranchPlaceHolder": "Select Branch"
+      },
+
+      "headerAccountCreatedLabel": "Account Successfully Created!",
+      "descriptionAccountCreated": "Please enter your account details on the login page!",
+
+
+      "tabBarDashboardLabel": "Dashboard",
+
+      "dataMachineValidation": {
+        "required": "{{field}} is required",
+      },
+      "dataMachineFieldFields": {
+        "machineName": "Machine",
+        "machineNamePlaceHolder": "Enter Machine Name",
+        "serialNumber": "Serial Number",
+        "serialNumberPlaceHolder": "Enter Serial Number",
+        "type": "Type",
+        "typePlaceHolder": "Enter Type",
+        "purchaseDate": "Purchase Date",
+        "purchaseDatePlaceHolder": "Select Date",
+        "bookingDate": "Booking Date",
+        "bookingTime": "Booking Time",
+        "bookingDatePlaceHolder": "Select Date",
+        "serviceDate": "Service Date",
+        "serviceTimeSchedule": "Service Time",
+        "serviceDatePlaceHolder": "Select Date"
+      },
+
+      "tabBarBookingLabel": "Booking",
+      "placeholderSearchBarBooking": "Search Machine Name/Booking Code Number",
+      "segmentAllStatusLabel": "All",
+      "segmentWaitingStatusLabel": "Waiting",
+      "segmentApprovedStatusLabel": "Approved",
+      "segmentOnGoingStatusLabel": "Outstanding",
+      "segmentProgressStatusLabel": "Repair in Progress",
+      "segmentCustomerApprovalStatusLabel": "Customer Approval",
+      "segmentFinishStatusLabel": "Finished",
+      "segmentCancelStatusLabel": "Cancelled",
+      "itemBoookingStatusLabel": "Status",
+      "itemBoookingCodeLabel": "Booking Code",
+      "itemBoookingTechnicianNameLabel": "Technician Name",
+      "itemBookingDateLabel": "Booking Date",
+      "itemServiceDateLabel": "Service Date",
+      "itemServiceTypeLabel": "Service Type",
+      "segmentTabBookingInformation": "Booking Information",
+      "segmentTabBookingStatus": "Booking Status",
+      "confirmationCancelBooking": "Cancel Booking?",
+      "confirmationAreYouSure": "Are you sure you want to cancel the booking for",
+      "confirmationContinueCancellation": "Continue Cancellation",
+      "confirmationContinueCancellationForm": "Cancel",
+      "confirmationGoBack": "Go Back",
+      "confirmationSadToSeeYouGo": "We are very sad that you have cancelled your booking. We will always improve our service to satisfy you in your next booking.",
+      "confirmationCancelBookingValidation": {
+        "required": "{{field}} is required"
+      },
+      "confirmationCancelBookingFields": {
+        "reasons": "Reasons for Cancellation",
+        "reasonsPlaceHolder": "Enter your reason for cancellation"
+      },
+
+      "tabBarServiceLabel": "Service",
+      "placeholderSearchBarService": "Search Machine Name/Serial Number",
+      "myMachineLabel": "My Machine",
+      "myMachineDescription": "Please select the machine you want to service",
+      "itemMachineName": "Machine Name",
+      "itemSerialNumber": "Serial Number",
+      "itemPurchaseDate": "Purchase Date",
+      "itemCategoryMachine": "Machine Code",
+      "detailServiceLabel": "Service Detail",
+      "serviceScheduleLabel": "Service Schedule",
+      "requestServiceScheduleLabel": "Service Schedule Request",
+      "serviceScheduleValidation": {
+        "required": "{{field}} is required",
+        "min": "{{field}} must be at least {{min}} photo"
+      },
+      "serviceScheduleFields": {
+        "date": "Date",
+        "time": "Time",
+        "location": "Location",
+        "issue": "Issue",
+        "issuePlaceHolder": "Explain your machine's issue",
+        "photos": "Upload Photos",
+        "photo": "Photo"
+      },
+      
+      "tabBarChatLabel": "Chat",
+
+      "tabBarNotificationLabel": "Notification",
+
+      "tabBarProfileLabel": "Profile",
+      "changePersonalDataLabel": "Change Personal Data",
+      "toastSuccessUpdate": "Data changes have been successfully saved",
+
+      "tabBarAddMachineLabel": "Add My Machine",
+      "scanBarcodeInformation": "Does your machine have a Gading Murni barcode?",
+      "scanBarcode": "Scan Barcode",
+      "addMachineFormValidation": {
+        "required": "{{field}} is required"
+      },
+      "addMachineFieldFields": {
+        "name": "Machine",
+        "namePlaceHolder": "Enter product/machine name",
+        "type": "Product Type",
+        "typePlaceHolder": "Enter product type",
+        "serialNumber": "Serial Number",
+        "serialNumberPlaceHolder": "Enter serial number",
+        "purchaseDate": "Purchase Date",
+        "purchaseDatePlaceHolder": "Enter purchase date",
+        "photo": "Upload Photo"
+      },
+
+      "changePasswordLabel": "Change Password",
+      "changePasswordFormValidation": {
+        "required": "{{field}} is required",
+        "min": "{{field}} must be at least {{min}} characters",
+        "confirmPassword": "Password confirmation does not match"
+      },
+      "changePasswordFieldFields": {
+        "oldPassword": "Old Password",
+        "oldPasswordPlaceHolder": "Enter Old Password",
+        "password": "New Password",
+        "passwordPlaceHolder": "Enter New Password",
+        "confirmPassword": "Confirm Password",
+        "confirmPasswordPlaceHolder": "Confirm Password"
+      },
+
+      "settingLabel": "Settings",
+      "settingChangeLanguageLabel": "Change Language",
+
+      "aboutUsLabel": "Support & About Us",
+      "aboutUsDescription":"PT. Gading Murni is the largest and oldest company in Indonesia in the sale of office equipment consisting of retail, wholesale, and office equipment suppliers.",
+
+      "logoutLabel": "Logout",
+
+
+      "customerData": "Customer Data",
+      "changeCustomerDataLabel": "Accept Booking",
+      "detailCustomerDataLabel": "Detail Pelanggan",
+      "detailMachineDataLabel": "Detail Mesin",
+      "toastAcceptBooking": "The booking has been successfully accepted",
+
+      "assignTechnicianLabel": "Assign Technician",
+      "technicianFormValidation": {
+        "required": "{{field}} is required"
+      },
+      "technicianFieldFields": {
+          "technician": "Teknisi",
+          "technicianPlaceHolder": "Select Technician",
+          "searchTechnician": "Technician search"
+      },
+      "toastAssignTechnician": "Technician successfully assigned",
+      "technicianOnLocationLabel": "On Location",
+      "techniciaCurrentTimeLabel": "Time to Location",
+      "techniciaCoordinateLocationLabel": "LAT/LONG",
+
+      "afterServiceLabel": "After Service",
+      "addServiceItemLabel": "Add Service Cost",
+      "addServiceItemHeaderLabel": "Service Cost",
+      "afterServiceFormValidation": {
+        "required": "{{field}} is required",
+        "numeric": "{{field}} must be numeric",
+        "minValue": "{{field}} must be at least {{min}}",
+        "photoUrl": "Photo URL is invalid"
+      },
+      "afterServiceFieldFields": {
+        "description": "Service Description",
+        "descriptionPlaceHolder": "Enter service description",
+        "feedback": "Feedback",
+        "feedbackPlaceHolder": "Enter feedback",
+        "imagePath": "Image Path",
+        "imagePathPlaceHolder": "Enter image path",
+        "imageUrl": "Image URL",
+        "imageUrlPlaceHolder": "Enter image URL",
+        "serviceCost": "Service Cost",
+        "serviceCostPlaceHolder": "Enter service cost",
+        "sparepartName": "Name",
+        "sparepartNamePlaceHolder": "Enter name",
+        "type": "Type",
+        "typePlaceHolder": "Enter type",
+        "cost": "Cost",
+        "costPlaceHolder": "Enter cost",
+        "amount": "Qty",
+        "amountPlaceHolder": "Enter qty",
+        "note": "Note",
+        "notePlaceHolder": "Enter note"
+      },
+
+      "Actions": {
+        "Assign": "Assign",
+        "Select": "Select",
+        "Edit": "Edit",
+        "Delete": "Delete",
+        "Accept": "Accept",
+        "Skip": "Skip",
+        "Close": "Close",
+        "Send": "Send",
+        "Next": "Next",
+        "Save": "Save",
+        "Cancel": "Cancel",
+        "Change": "Change",
+        "SecondTime": "seconds",
+        "Or": "or "
+      },
+
+      "Messages": {
+        "UpdateDataSuccessfully": "Data changes have been successfully saved"
+      },
+
+      "ChatModule": {
+        "TabBarChat": "Chat"
+      },
+
+      "BookingModule": {
+        "TabBarBooking": "Booking",
+        "SearchBooking": "Search Machine Name/Booking Code Number",
+        "Card": {
+          "Title": "Latest Booking"
+        },
+        "Status": {
+          "All": "All",
+          "Waiting": "Waiting",
+          "Approved": "Approved",
+          "OnGoing": "Outstanding",
+          "Progress": "Repair in Progress",
+          "CustomerApproval": "Customer Approval",
+          "Finish": "Finished",
+          "Cancelled": "Cancelled"
+        },
+        "Item": {
+          "Status": "Status",
+          "BookingCode": "Booking Code",
+          "Technician": "Technician Name",
+          "BookingDate": "Booking Date",
+          "ServiceDate": "Service Date"
+        },
+        "Segment": {
+          "Information": "Booking Information" ,
+          "Status": "Booking Status"
+        },
+        "BookingDetail": {
+          "Header": "Booking Detail",
+          "CancelConfirmation": {
+            "Header": "Cancel Booking",
+            "Question": "Are you sure you want to cancel the booking for",
+            "Continue": "Continue Cancellation",
+            "Cancel": "Cancel",
+            "Back": "Go Back",
+            "Desc": "We are very sad that you have cancelled your booking. We will always improve our service to satisfy you in your next booking.",
+            "Form": {
+              "Validation": {
+                "Required": "{{field}} is required"
+              },
+              "Fields": {
+                "Reasons": "Reasons for Cancellation",
+                "ReasonsPlaceHolder": "Enter your reason for cancellation"
+              }
+            }
+          },
+          "StartService": "Start Service Photo",
+          "AfterService": "After Service Photo"
+        }
+      },
+
+      "CustomerModule": {
+        "Location": {
+          "HeaderLocation": "Location",
+          "LocationCoordinate": "Your Location",
+          "Form": {
+            "Validation": {
+              "Required": "{{field}} is required",
+              "PostalCode": "Postal code is invalid"
+            },
+            "Fields": {
+              "Province": "Province",
+              "SearchProvince": "Select Province",
+              "Regency": "City",
+              "SearchRegency": "Regency search",
+              "District": "District",
+              "SearchDistrict": "District search",
+              "Village": "Village",
+              "SearchVillage": "Village search",
+              "PostalCode": "Postal Code",
+              "PostalCodePlaceHolder": "Enter Postal Code",
+              "FullAddress": "Full Address",
+              "FullAddressPlaceHolder": "Enter Full Address",
+              "NearestBranch": "Choose Nearest Branch",
+              "Branch": "Branch"
+            }
+          }
+        }
+      },
+
+      "MachineModule": {
+        "SearchBarPlaceholder": "Search Machine Name",
+        "Card": {
+          "Title": "My Machine",
+          "Action": "Add My Machine"
+        },
+        "Messages": {
+          "AddedMachine": "Successfully added machine data",
+          "UpdatedMachine": "Successfully updated machine data"
+        },        
+        "Empty": "No machines registered yet",
+        "HeaderSubmitMachine": "Register Machine",
+        "CallToAction": {
+          "Title": "My Machine",
+          "Description": "Please select the machine you want to service",
+          "Add": "Add Machine" 
+        },
+        "Item": {
+          "Name": "Machine Name",
+          "SerialNumber": "Serial Number",
+          "PurchaseDate": "Purchase Date",
+          "Type": "Machine Type",
+          "Code": "Code"
+        },
+        "ScanBarcode": {
+          "Title": "Scan Machine Barcode",
+          "Footer": "Scan the Barcode Displayed on the Machine"
+        }
+      },
+
+      "ServiceModule": {
+        "TabBarServiceLabel": "My Machine",
+        "Card": {
+          "Title": "Last Service",
+          "Action": "See All"
+        },
+        "Empty": "No service requests have been made yet",
+        "HeaderSubmitServiceSchedule": "Create Service Request",
+        "RequestSchedule": "Service Schedule Request",
+        "RequestScheduleForm": {
+          "ScheduleValidation": {
+            "Required": "{{field}} is required",
+            "Min": "{{field}} must be at least {{min}} photo"
+          },
+          "ScheduleFields": {
+            "Date": "Date",
+            "Time": "Time",
+            "Location": "Location",
+            "Issue": "Issue",
+            "IssuePlaceHolder": "Explain your machine's issue",
+            "Photos": "Upload Photos"
+          }
+        },
+        "ConfirmationSubmit": {
+          "Title": "Check all your service details before processing!",
+          "Desc": "All approved orders cannot be edited anymore, make sure everything is correct",
+          "ActionSubmit": "Continue Booking"
+        },
+        "ServiceRequestCreated": {
+          "Title": "Booking successfully created!",
+          "Desc": "Please wait! The admin will approve your submission soon, thank you.",
+          "ActionToDetail": "View Details",
+          "ActionToHome": "Back to Home"
+        },
+        "ServiceDetail": {
+          "Header": "Service Detail",
+          "Notes": "Service Description",
+          "Feedback": "Service Feedback",
+          "PaymentConfirmation": "I have read and agree to the service details",
+          "ActionSubmit": "Complete"
+        },
+        "Rating": {
+          "Title": "Your Service is Complete!",
+          "Desc": "Thank you for using our services.",
+          "Form": {
+            "Validation": {
+              "Required": "{{field}} is required",
+              "Rating": "Please provide a rating first",
+              "MinLength": "{{field}} must be at least {{min}} characters"
+            },
+            "Fields": {
+              "Technician": "Technician",
+              "Rating": "Rating",
+              "RatingPlaceholder": "Enter rating",
+              "Review": "Review",
+              "ReviewPlaceholder": "Write your review"
+            }
+          },
+          "ActionSubmit": "Submit Rating"
+        },
+        "Review": {
+          "Header": "Review Detail",
+          "Title": "Your Reviews & Feedback"
+        }
+      },
+
+      "NotificationsModule": {
+        "Empty": "No notification has appeared yet"
+      }
+}

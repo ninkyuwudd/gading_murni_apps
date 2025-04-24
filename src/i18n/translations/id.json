@@ -1,0 +1,551 @@
+{
+    "onboardingSlideTitle1": "Kelola Mesin Anda",
+    "onboardingSlideDescription1": "Kami mengutamakan kepuasan Anda dan memastikan kesejahteraan perangkat Anda",
+    "onboardingSlideTitle2": "Respon Cepat",
+    "onboardingSlideDescription2": "Dapatkan bantuan dan dukungan dengan cepat kapan pun Anda membutuhkannya",
+    "onboardingSlideTitle3": "Selalu Peduli",
+    "onboardingSlideDescription3": "Gading Murni selalu tersedia 24/7. Jangan khawatir, kami online di tengah malam!",
+
+    "assignLabel": "Tugaskan",
+    "selectLabel": "Pilih",
+    "editLabel": "Ubah",
+    "deleteLabel": "Hapus",
+    "acceptLabel": "Terima",
+    "changeScheduleLabel": "Ubah Jadwal",
+    "skipLabel": "Lewati",
+    "closeLabel": "Tutup",
+    "sendLabel": "Kirim",
+    "nextLabel": "Lanjutkan",
+    "saveLabel": "Simpan",
+    "cancelLabel": "Batal",
+    "changeLabel": "Ubah",
+    "secondTimeLabel": "detik",
+    "orLabel": "atau ",
+    "errorMessageForm": "Silahkan mengisi form terlebih dahulu",
+    "otpInfo1": "Kode OTP dikirim ke",
+    "pleaseCheck": ", mohon cek",
+    "otpInfo2": "Anda dan masukan kode",
+    "resendOtp": "Kirim ulang otp dalam",
+    "resendOtpAction": "Kirim ulang otp",
+    "machinesListEmpty": "Belum ada mesin yang terdaftar",
+    "registerMachine": "Daftarkan Mesin",
+    "myMachine": "Mesin Saya",
+    "addMyMachine": "Tambah Mesin Saya",
+    "total": "Total",
+    "whatsApp": "WhatsApp",
+    "email": "Email",
+    "cancel": "Cancel",
+    "sendOtp": "Kirim OTP",
+    "sendOtpInformation": "Pilih cara Anda ingin menerima kode OTP",
+    "registration": "Registrasi",
+    "chooseVerificationMethod": "Pilih Metode Verifikasi",
+    "verificationMethodDesc": "Pilih cara untuk melakukan proses registrasi, dan kami akan mengirimkan 4 digit kode OTP ke alamat (email/Whatsapp) yang sudah terdaftar",
+    "viaEmail": "Via Email",
+    "viaEmailDesc": "Kami akan mengirim 4 digit kode OTP ke nomor Email yang Anda masukkan",
+    "viaWhatsapp": "Via Whatsapp",
+    "viaWhatsappDesc": "Kami akan mengirim 4 digit kode OTP ke nomor Whatsapp yang Anda masukkan",
+
+    "loginFormValidation": {
+        "required": "{{field}} dibutuhkan",
+        "email": "Email tidak sesuai"
+    },
+    "loginFieldFields": {
+        "email": "Email",
+        "emailPlaceHolder": "Masukan email Anda",
+        "password": "Kata Sandi",
+        "passwordPlaceHolder": "Masukan kata sandi Anda"
+    },
+    "btnLoginLabel": "Masuk",
+    "btnForgetLabel": "Lupa kata sandi?",
+    "footerCreateAccountLabel": "Belum punya akun? ",
+    "footerBtnCreateAccountLabel": "Buat Akun",
+
+    "headerForgetPasswordLabel": "Lupa Kata Sandi",
+    "descriptionForgetPasswordByEmail": "Masukkan alamat Email Anda untuk proses reset kata sandi, dan kami akan mengirimkan 4 digit kode OTP ke Email Anda.",
+    "descriptionForgetPasswordByWhatsapp": "Masukkan no Whatsapp Anda untuk proses reset kata sandi, dan kami akan mengirimkan 4 digit kode OTP ke Whatsapp Anda.",
+    "forgetFormValidation": {
+        "required": "{{field}} dibutuhkan",
+        "email": "Email tidak sesuai",
+        "phoneNumber": "Nomor Whatsapp tidak valid"
+    },
+    "forgetFieldFields": {
+        "email": "Email",
+        "emailPlaceHolder": "Masukan email Anda",
+        "phoneNumber": "No. Whatsapp",
+        "phoneNumberPlaceHolder": "Masukkan No. Whatsapp"
+    },
+
+    "infoRegisterLabel": "Daftarkan akun Anda dan Kami siap melayani kebutuhan Anda!",
+    "registerFormValidation": {
+        "required": "{{field}} dibutuhkan",
+        "email": "Email tidak valid",
+        "min": "{{field}} harus minimal {{min}} karakter",
+        "phoneNumber": "Nomor HP tidak valid",
+        "confirmPassword": "Konfirmasi kata sandi tidak cocok"
+      },
+      "registerFieldFields": {
+        "fullName": "Nama Lengkap",
+        "fullNamePlaceHolder": "Masukkan Nama Lengkap",
+        "companyName": "Nama Perusahaan",
+        "companyNamePlaceHolder": "Masukkan nama perusahaan (Opsional)",
+        "email": "Email",
+        "emailPlaceHolder": "Masukkan email",
+        "phoneNumber": "No. HP",
+        "phoneNumberPlaceHolder": "Masukkan No. HP",
+        "password": "Kata Sandi",
+        "passwordPlaceHolder": "Masukkan Kata Sandi",
+        "confirmPassword": "Konfirmasi Kata Sandi",
+        "confirmPasswordPlaceHolder": "Konfirmasi Kata Sandi"
+      },
+      "btnRegisterLabel": "Daftar",
+      "footerBtnLoginLabel": "Masuk",
+      "footerLoginLabel": " dengan akun Anda",
+
+    "headerConfirmationOtpLabel": "Konfirmasi OTP",
+    "enterOtpCode": "Masukkan Kode OTP",
+
+    "AuthModule": {
+      "ResetPassword": {
+        "Header": "Reset Kata Sandi",
+        "Form": {
+          "Validation": {
+            "Required": "{{field}} dibutuhkan",
+            "ConfirmPassword": "Konfirmasi kata sandi tidak cocok",
+            "Email": "Email tidak sesuai",
+            "PhoneNumber": "No Whatsapp tidak sesuai",
+            "Min": "{{field}} harus minimal {{min}} karakter"
+          },
+          "Fields": {
+            "Email": "Email",
+            "EmailPlaceHolder": "Masukan email Anda",
+            "PhoneNumber": "No. Whatsapp",
+            "PhoneNumberPlaceHolder": "Masukkan No. Whatsapp",
+            "Otp": "Kode Otp",
+            "OtpPlaceHolder": "Masukkan kode otp",
+            "Password": "Kata Sandi Baru",
+            "PasswordPlaceHolder": "Masukkan Kata Sandi Baru",
+            "ConfirmPassword": "Konfirmasi Kata Sandi",
+            "ConfirmPasswordPlaceHolder": "Konfirmasi Kata Sandi"
+          }
+        },
+        "SuccessfullyChanged": "Kata sandi berhasil diganti"   
+      }
+    },
+    
+    "headerDataCompletenessLabel": "Lokasi",
+    "myLocationLabel": "Lokasi Anda",
+    "dataCompletenessValidation": {
+        "required": "{{field}} dibutuhkan",
+        "postalCode": "Kode Pos tidak valid"
+      },
+      "dataCompletenessFieldFields": {
+        "province": "Provinsi",
+        "provincePlaceHolder": "Pilih Provinsi",
+        "searchProvince": "Pencarian provinsi",
+        "regency": "Kota",
+        "regencyPlaceHolder": "Pilih Kota",
+        "searchRegency": "Pencarian provinsi",
+        "district": "Kecamatan",
+        "districtPlaceHolder": "Pilih Kecamatan",
+        "searchDistrict": "Pencarian Kecamatan",
+        "village": "Kelurahan",
+        "villagePlaceHolder": "Pilih Kelurahan",
+        "searchVillage": "Pencarian kelurahan",
+        "postalCode": "Kode Pos",
+        "postalCodePlaceHolder": "Masukkan Kode Pos",
+        "fullAddress": "Alamat Lengkap",
+        "fullAddressPlaceHolder": "Masukkan Alamat Lengkap",
+        "nearestBranch": "Pilih Cabang Terdekat",
+        "branch": "Cabang",
+        "nearestBranchPlaceHolder": "Pilih Cabang"
+      },
+
+      "headerAccountCreatedLabel": "Akun Berhasil Dibuat!",
+      "descriptionAccountCreated": "Silakan masukkan akun Anda di halaman login!",
+
+      "tabBarDashboardLabel": "Beranda",
+
+      "dataMachineValidation": {
+        "required": "{{field}} dibutuhkan"
+      },
+      "dataMachineFieldFields": {
+        "machineName": "Mesin",
+        "machineNamePlaceHolder": "Masukan Nama Mesin",
+        "serialNumber": "Nomor Serial",
+        "serialNumberPlaceHolder": "Masukan Nomor Serial",
+        "type": "Tipe",
+        "typePlaceHolder": "Masukan Tipe",
+        "purchaseDate": "Tgl. Pembelian",
+        "purchaseDatePlaceHolder": "Pilih Tanggal",
+        "bookingDate": "Tgl. Pemesanan",
+        "bookingTime": "Jam Pemesanan",
+        "bookingDatePlaceHolder": "Pilih Tanggal",
+        "serviceDate": "Tgl. Servis",
+        "serviceTimeSchedule": "Jam Servis",
+        "serviceDatePlaceHolder": "Pilih Tanggal"
+      },
+
+      "tabBarBookingLabel": "Pemesanan",
+      "placeholderSearchBarBooking": "Cari Nama Mesin/No. Kode Pemesanan",
+      "segmentAllStatusLabel": "Semua",
+      "segmentWaitingStatusLabel": "Menunggu",
+      "segmentApprovedStatusLabel": "Diterima",
+      "segmentOnGoingStatusLabel": "Sedang Berlangsung",
+      "segmentProgressStatusLabel": "Proses Perbaikan",
+      "segmentCustomerApprovalStatusLabel": "Persetujuan Pelanggan",
+      "segmentFinishStatusLabel": "Selesai",
+      "segmentCancelStatusLabel": "Batal",
+      "itemBoookingCodeLabel": "Kode Pemesanan",
+      "itemBoookingStatusLabel": "Status",
+      "itemBoookingTechnicianNameLabel": "Nama Teknisi",
+      "itemBookingDateLabel": "Tgl. Pemesanan",
+      "itemServiceDateLabel": "Tgl. Service",
+      "itemServiceTypeLabel": "Tipe Servis",
+      "segmentTabBookingInformation": "Informasi Pemesanan",
+      "segmentTabBookingStatus": "Status Pemesanan",
+      "confirmationCancelBooking": "Batalkan Pemesanan",
+      "confirmationAreYouSure": "Apakah anda yakin ingin membatalkan Pemesanan",
+      "confirmationContinueCancellation": "Lanjutkan Pembatalan",
+      "confirmationContinueCancellationForm": "Batalkan",
+      "confirmationGoBack": "Kembali",
+      "confirmationSadToSeeYouGo": "Kami sangat sedih Anda telah membatalkan pemesanan. Kami akan selalu meningkatkan pelayanan kami untuk memuaskan Anda pada pemesanan berikutnya.",
+      "confirmationCancelBookingValidation": {
+        "required": "{{field}} dibutuhkan"
+      },
+      "confirmationCancelBookingFields": {
+        "reasons": "Alasan Membatalkan Pemesanan",
+        "reasonsPlaceHolder": "Masukkan alasan pembatalan pemesanan"
+      },
+
+      "tabBarServiceLabel": "Layanan",
+      "placeholderSearchBarService": "Cari Nama Mesin/Serial Number",
+      "myMachineLabel": "Mesin Saya",
+      "myMachineDescription": "Silakan pilih mesin yang ingin di service",
+      "itemMachineName": "Nama Mesin",
+      "itemSerialNumber": "Serial Number",
+      "itemPurchaseDate": "Tanggal Pembelian",
+      "itemCategoryMachine": "Kode Mesin",
+      "detailServiceLabel": "Detail Layanan",
+      "serviceScheduleLabel": "Jadwal Servis",
+      "requestServiceScheduleLabel": "Permintaan Jadwal Service",
+      "serviceScheduleValidation": {
+        "required": "{{field}} dibutuhkan",
+        "min": "{{field}} harus minimal {{min}} foto"
+      },
+      "serviceScheduleFields": {
+        "date": "Tanggal",
+        "time": "Jam",
+        "location": "Lokasi",
+        "issue": "Kendala",
+        "issuePlaceHolder": "Jelaskan kendala mesin Anda",
+        "photos": "Upload Foto",
+        "photo": "Foto"
+      },
+
+      "tabBarChatLabel": "Obrolan",
+
+      "tabBarNotificationLabel": "Notifikasi",
+
+      "tabBarProfileLabel": "Profil",
+      "changePersonalDataLabel": "Ubah Data Diri",
+      "toastSuccessUpdate": "Perubahan data berhasil disimpan",
+
+      "tabBarAddMachineLabel": "Tambah Mesin Saya",
+      "scanBarcodeInformation": "Mesin Anda terdapat Kode Barcode dari Gading Murni?",
+      "scanBarcode": "Scan Barcode",
+      "addMachineFormValidation": {
+        "required": "{{field}} dibutuhkan"
+      },
+      "addMachineFieldFields": {
+        "name": "Mesin",
+        "namePlaceHolder": "Masukkan nama produk/mesin",
+        "type": "Tipe Produk",
+        "typePlaceHolder": "Masukkan tipe produk",
+        "serialNumber": "Serial Number",
+        "serialNumberPlaceHolder": "Masukkan serial number",
+        "purchaseDate": "Tgl Pembelian",
+        "purchaseDatePlaceHolder": "Masukkan tgl pembelian",
+        "photo": "Upload Foto"
+      },
+
+      "changePasswordLabel": "Ganti Kata Sandi",
+      "changePasswordFormValidation": {
+        "required": "{{field}} dibutuhkan",
+        "min": "{{field}} harus minimal {{min}} karakter",
+        "confirmPassword": "Konfirmasi kata sandi tidak cocok"
+      },
+      "changePasswordFieldFields": {
+        "oldPassword": "Kata Sandi Lama",
+        "oldPasswordPlaceHolder": "Masukkan Kata Sandi Lama",
+        "password": "Kata Sandi Baru",
+        "passwordPlaceHolder": "Masukkan Kata Sandi Baru",
+        "confirmPassword": "Konfirmasi Kata Sandi",
+        "confirmPasswordPlaceHolder": "Konfirmasi Kata Sandi"
+      },
+
+      "settingLabel": "Pengaturan",
+      "settingChangeLanguageLabel": "Ubah Bahasa",
+
+      "aboutUsLabel": "Dukungan & Tentang Kami",
+      "aboutUsDescription":"PT. Gading Murni adalah perusahaan terbesar dan tertua di Indonesia dalam penjualan peralatan kantor yang terdiri dari retail, grosir dan supplier alat kantor.",
+
+      "logoutLabel": "Keluar",
+
+      "customerData": "Data Customer",
+      "changeCustomerDataLabel": "Menerima Pesanan",
+      "detailCustomerDataLabel": "Customer Detail",
+      "detailMachineDataLabel": "Machine Detail",
+      "toastAcceptBooking": "Pesanan berhasil diterima",
+
+      "assignTechnicianLabel": "Tugaskan Teknisi",
+      "technicianFormValidation": {
+        "required": "{{field}} dibutuhkan"
+      },
+      "technicianFieldFields": {
+          "technician": "Teknisi",
+          "technicianPlaceHolder": "Pilih Teknisi",
+          "searchTechnician": "Pencarian teknisi"
+      },
+      "toastAssignTechnician": "Teknisi berhasil ditugaskan",
+      "technicianOnLocationLabel": "Sudah Dilokasi",
+      "techniciaCurrentTimeLabel": "Waktu Sampai Lokasi",
+      "techniciaCoordinateLocationLabel": "LAT/LONG",
+
+      "afterServiceLabel": "Setelah Perbaikan",
+      "addServiceItemLabel": "Tambah Biaya Layanan",
+      "addServiceItemHeaderLabel": "Biaya Layanan",
+      "afterServiceFormValidation": {
+        "required": "{{field}} dibutuhkan",
+        "numeric": "{{field}} harus berupa angka",
+        "minValue": "{{field}} harus minimal {{min}}",
+        "photoUrl": "URL foto tidak valid"
+      },
+      "afterServiceFieldFields": {
+        "description": "Deskripsi Layanan",
+        "descriptionPlaceHolder": "Masukkan deskripsi layanan",
+        "feedback": "Umpan Balik",
+        "feedbackPlaceHolder": "Masukkan umpan balik",
+        "imagePath": "Path Gambar",
+        "imagePathPlaceHolder": "Masukkan path gambar",
+        "imageUrl": "URL Gambar",
+        "imageUrlPlaceHolder": "Masukkan URL gambar",
+        "serviceCost": "Biaya Layanan",
+        "serviceCostPlaceHolder": "Masukkan biaya layanan",
+        "sparepartName": "Nama",
+        "sparepartNamePlaceHolder": "Masukkan nama",
+        "type": "Tipe",
+        "typePlaceHolder": "Masukkan tipe",
+        "cost": "Biaya",
+        "costPlaceHolder": "Masukkan biaya",
+        "amount": "Qty",
+        "amountPlaceHolder": "Masukkan qty",
+        "note": "Catatan",
+        "notePlaceHolder": "Masukkan catatan"
+      },
+
+      "Actions": {
+        "Assign": "Tugaskan",
+        "Select": "Pilih",
+        "Edit": "Ubah",
+        "Delete": "Hapus",
+        "Accept": "Terima",
+        "Skip": "Lewati",
+        "Close": "Tutup",
+        "Send": "Kirim",
+        "Next": "Lanjutkan",
+        "Save": "Simpan",
+        "Cancel": "Batal",
+        "Change": "Ubah",
+        "SecondTime": "detik",
+        "Or": "atau "
+      },
+
+      "Messages": {
+        "UpdateDataSuccessfully": "Perubahan data berhasil disimpan",
+        "SubmitRatingSuccessfully": "Sampai jumpa kembali pada pelayanan berikutnya"
+      },
+
+      "ChatModule": {
+        "TabBarChat": "Obrolan"
+      },
+
+      "BookingModule": {
+        "TabBarBooking": "Pemesanan",
+        "SearchBooking": "Cari Nama Mesin/No. Kode Pemesanan",
+        "Card": {
+          "Title": "Booking Terbaru"
+        },
+        "Status": {
+          "All": "Semua",
+          "Waiting": "Menunggu",
+          "Approved": "Diterima",
+          "OnGoing": "Sedang Berlangsung",
+          "Progress": "Proses Perbaikan",
+          "CustomerApproval": "Persetujuan Pelanggan",
+          "Finish": "Selesai",
+          "Cancelled": "Dibatalkan"
+        },
+        "Item": {
+          "Status": "Status",
+          "BookingCode": "Kode Pemesanan",
+          "Technician": "Nama Teknisi",
+          "BookingDate": "Tgl. Pemesanan",
+          "ServiceDate": "Tgl. Service"
+        },
+        "Segment": {
+          "Information": "Informasi Pemesanan" ,
+          "Status": "Status Pemesanan"
+        },
+        "BookingDetail": {
+          "Header": "Rincian Pemesanan",
+          "CancelConfirmation": {
+            "Header": "Batalkan Pemesanan",
+            "Question": "Apakah anda yakin ingin membatalkan Pemesanan",
+            "Continue": "Lanjutkan Pembatalan",
+            "Cancel": "Batalkan",
+            "Back": "Kembali",
+            "Desc": "Kami sangat sedih Anda telah membatalkan pemesanan. Kami akan selalu meningkatkan pelayanan kami untuk memuaskan Anda pada pemesanan berikutnya.",
+            "Form": {
+              "Validation": {
+                "Required": "{{field}} dibutuhkan"
+              },
+              "Fields": {
+                "Reasons": "Alasan Membatalkan Pemesanan",
+                "ReasonsPlaceHolder": "Masukkan alasan pembatalan pemesanan"
+              }
+            }
+          },
+          "StartService": "Foto Mulai Service",
+          "AfterService": "Foto Setelah Service"
+        }
+      },
+
+      "CustomerModule": {
+        "Location": {
+          "HeaderLocation": "Lokasi",
+          "LocationCoordinate": "Lokasi Anda",
+          "Form": {
+            "Validation": {
+              "Required": "{{field}} dibutuhkan",
+              "PostalCode": "Kode Pos tidak valid"
+            },
+            "Fields": {
+              "Province": "Provinsi",
+              "SearchProvince": "Pencarian provinsi",
+              "Regency": "Kota",
+              "SearchRegency": "Pencarian provinsi",
+              "District": "Kecamatan",
+              "SearchDistrict": "Pencarian Kecamatan",
+              "Village": "Kelurahan",
+              "SearchVillage": "Pencarian kelurahan",
+              "PostalCode": "Kode Pos",
+              "PostalCodePlaceHolder": "Masukkan Kode Pos",
+              "FullAddress": "Alamat Lengkap",
+              "FullAddressPlaceHolder": "Masukkan Alamat Lengkap",
+              "NearestBranch": "Pilih Cabang Terdekat",
+              "Branch": "Cabang"
+            }
+          }
+        }
+      },
+
+      "MachineModule": {
+        "SearchBarPlaceholder": "Cari Nama Mesin",
+        "Card": {
+          "Title": "Mesin Saya",
+          "Action": "Tambah Mesin Saya"
+        },
+        "Messages": {
+          "AddedMachine": "Berhasil menambahkan data mesin",
+          "UpdatedMachine": "Berhasil mengubah data mesin"
+        },
+        "Empty": "Belum ada mesin yang terdaftar",
+        "HeaderSubmitMachine": "Daftarkan Mesin",
+        "CallToAction": {
+          "Title": "Mesin Saya",
+          "Description": "Silakan pilih mesin yang ingin di service",
+          "Add": "Tambah Mesin" 
+        },
+        "Item": {
+          "Name": "Nama Mesin",
+          "SerialNumber": "Serial Number",
+          "PurchaseDate": "Tanggal Pembelian",
+          "Type": "Tipe Mesin" ,
+          "Code": "Kode" 
+        },
+        "ScanBarcode": {
+          "Title": "Scan Barcode Mesin",
+          "Footer": "Scan pada Barcode yang Tertera di Mesin"
+        }
+      },
+
+      "ServiceModule": {
+        "TabBarService": "Mesin Saya",
+        "Card": {
+          "Title": "Service Terakhir",
+          "Action": "Lihat Semua"
+        },
+        "Empty": "Belum ada permintaan servis yang dibuat",
+        "HeaderSubmitServiceSchedule": "Buat Permintaan Servis",
+        "RequestSchedule": "Permintaan Jadwal Service",
+        "RequestScheduleForm": {
+          "ScheduleValidation": {
+            "Required": "{{field}} dibutuhkan",
+            "Min": "{{field}} harus minimal {{min}} foto"
+          },
+          "ScheduleFields": {
+            "Date": "Tanggal",
+            "Time": "Jam",
+            "Location": "Lokasi",
+            "Issue": "Kendala",
+            "IssuePlaceHolder": "Jelaskan kendala mesin Anda",
+            "Photos": "Upload Foto"
+          }
+        },
+        "ConfirmationSubmit": {
+          "Title": "Periksa semua keterangan service Anda sebelum diproses!",
+          "Desc": "Semua pesanan yang sudah di approve tidak dapat diedit lagi, pastikan semuanya sudah benar",
+          "ActionSubmit": "Lanjutkan Pemesanan"
+        },
+        "ServiceRequestCreated": {
+          "Title": "Pemesanan berhasil dibuat!",
+          "Desc": "Mohon ditunggu! admin akan segera menyetujui pengajuan Anda, Terima kasih.",
+          "ActionToDetail": "Lihat Detail",
+          "ActionToHome": "Kembali ke Beranda"
+        },
+        "ServiceDetail": {
+          "Header": "Rincian Layanan",
+          "Notes": "Keterangan Service",
+          "Feedback": "Feedback Service",
+          "PaymentConfirmation": "saya telah mengetahui & menyetujui detail servis",
+          "ActionSubmit": "Selesaikan"
+        },
+        "Rating": {
+          "Title": "Service Anda telah Selesai!",
+          "Desc": "Terima kasih telah menggunakan layanan kami.",
+          "Form": {
+            "Validation": {
+              "Required": "{{field}} dibutuhkan",
+              "Rating": "Berikan rating terlebih dahulu",
+              "MinLength": "{{field}} harus minimal {{min}} karakter"
+            },
+            "Fields": {
+              "Technician": "Teknisi",
+              "Rating": "Rating",
+              "RatingPlaceholder": "Masukkan rating",
+              "Review": "Ulasan",
+              "ReviewPlaceholder": "Tulis ulasan anda"
+            }
+          },
+          "ActionSubmit": "Berikan Rating"
+        },
+        "Review": {
+          "Header": "Detail Tinjau",
+          "Title": "Review & Ulasan Anda"
+        }
+      },
+
+      "NotificationsModule": {
+        "Empty": "Belum ada notifikasi yang muncul"
+      }
+}
