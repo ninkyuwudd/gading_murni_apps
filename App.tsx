@@ -11,63 +11,81 @@ import {store, persistor} from './src/store/store';
 import {check, request, PERMISSIONS, RESULTS} from 'react-native-permissions';
 import {Alert, Platform} from 'react-native';
 import Firebase from './src/firebase';
+import firebase from '@react-native-firebase/app';
+import { firebaseConfig } from './src/config/firebase.config';
 
 const queryClient = new QueryClient({});
 
 const App: React.FC = () => {
   useEffect(() => {
-    SplashScreen.hide();
-
-    const checkAndRequestPermissions = async () => {
+    const initializeApp = async () => {
       try {
-        const cameraStatus = await check(
-          Platform.OS === 'ios'
-            ? PERMISSIONS.IOS.CAMERA
-            : PERMISSIONS.ANDROID.CAMERA,
-        );
-
-        if (cameraStatus !== RESULTS.GRANTED) {
-          const newCameraStatus = await request(
-            Platform.OS === 'ios'
-              ? PERMISSIONS.IOS.CAMERA
-              : PERMISSIONS.ANDROID.CAMERA,
-          );
-
-          if (newCameraStatus !== RESULTS.GRANTED) {
-            Alert.alert(
-              'Permission Required',
-              'Camera permission is required to use this app.',
-            );
-          }
+        // Ensure Firebase is initialized
+        if (!firebase.apps.length) {
+          await firebase.initializeApp(firebaseConfig);
         }
+        
+        // Initialize Firebase services
+        await Firebase.Notification.start();
+        
+        // Then hide splash screen
+        SplashScreen.hide();
 
-        const locationStatus = await check(
-          Platform.OS === 'ios'
-            ? PERMISSIONS.IOS.LOCATION_WHEN_IN_USE
-            : PERMISSIONS.ANDROID.ACCESS_FINE_LOCATION,
-        );
-
-        if (locationStatus !== RESULTS.GRANTED) {
-          const newLocationStatus = await request(
-            Platform.OS === 'ios'
-              ? PERMISSIONS.IOS.LOCATION_WHEN_IN_USE
-              : PERMISSIONS.ANDROID.ACCESS_FINE_LOCATION,
-          );
-
-          if (newLocationStatus !== RESULTS.GRANTED) {
-            Alert.alert(
-              'Permission Required',
-              'Location permission is required to use this app.',
+        const checkAndRequestPermissions = async () => {
+          try {
+            const cameraStatus = await check(
+              Platform.OS === 'ios'
+                ? PERMISSIONS.IOS.CAMERA
+                : PERMISSIONS.ANDROID.CAMERA,
             );
+
+            if (cameraStatus !== RESULTS.GRANTED) {
+              const newCameraStatus = await request(
+                Platform.OS === 'ios'
+                  ? PERMISSIONS.IOS.CAMERA
+                  : PERMISSIONS.ANDROID.CAMERA,
+              );
+
+              if (newCameraStatus !== RESULTS.GRANTED) {
+                Alert.alert(
+                  'Permission Required',
+                  'Camera permission is required to use this app.',
+                );
+              }
+            }
+
+            const locationStatus = await check(
+              Platform.OS === 'ios'
+                ? PERMISSIONS.IOS.LOCATION_WHEN_IN_USE
+                : PERMISSIONS.ANDROID.ACCESS_FINE_LOCATION,
+            );
+
+            if (locationStatus !== RESULTS.GRANTED) {
+              const newLocationStatus = await request(
+                Platform.OS === 'ios'
+                  ? PERMISSIONS.IOS.LOCATION_WHEN_IN_USE
+                  : PERMISSIONS.ANDROID.ACCESS_FINE_LOCATION,
+              );
+
+              if (newLocationStatus !== RESULTS.GRANTED) {
+                Alert.alert(
+                  'Permission Required',
+                  'Location permission is required to use this app.',
+                );
+              }
+            }
+          } catch (error) {
+            console.error('Permission request error:', error);
           }
-        }
+        };
+
+        await checkAndRequestPermissions();
       } catch (error) {
-        console.error('Permission request error:', error);
+        console.error('App initialization error:', error);
       }
     };
 
-    checkAndRequestPermissions();
-    Firebase.Notification.start();
+    initializeApp();
   }, []);
 
   return (
